@@ -3,6 +3,8 @@ Option Explicit
 
 Public username2 As String
 
+
+
 Sub Check_username()
 
     Cells(2, 2) = InputBox("이름을 입력해주세요")
