@@ -71,7 +71,7 @@ Function FolderWithVBAProjectFiles() As String
     Set FSO = CreateObject("scripting.filesystemobject")
     
     'SpecialPath = "Z:\Planificacion-WFM\Planificacion Telefonica\Codigo"
-    SpecialPath = "C:\Users\JY\Documents\VBA_Project"
+    SpecialPath = "C:\Users\JY\Documents\VBA_Project\Game_1_word_connect"
     
     If Right(SpecialPath, 1) <> "\" Then
         SpecialPath = SpecialPath & "\"
