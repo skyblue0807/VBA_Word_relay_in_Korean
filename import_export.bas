@@ -70,7 +70,7 @@ Function FolderWithVBAProjectFiles() As String
     Set WshShell = CreateObject("WScript.Shell")
     Set FSO = CreateObject("scripting.filesystemobject")
     
-    'SpecialPath = "Z:\Planificacion-WFM\Planificacion Telefonica\Codigo"
+    'Where to make "VBAProjectfiles" Folder
     SpecialPath = "C:\Users\JY\Documents\VBA_Project\Game_1_word_connect"
     
     If Right(SpecialPath, 1) <> "\" Then
